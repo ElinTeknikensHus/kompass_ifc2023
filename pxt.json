@@ -10,7 +10,8 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "kompassIFC2023.md"
+        "kompassIFC2023.md",
+        "_locales/sv-SE/kompassIFC2023.md"
     ],
     "testFiles": [
         "test.ts"
@@ -22,5 +23,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
