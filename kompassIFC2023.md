@@ -1,5 +1,6 @@
 # kompassIFC2023
 ## steg 1
+```block
 let grader = 0
 basic.forever(function () {
     grader = input.compassHeading()
@@ -15,3 +16,4 @@ basic.forever(function () {
         basic.showString("N")
     }
 })
+```
