@@ -100,3 +100,8 @@ basic.forever(function () {
     }
 })
 ```
+
+## Ladda ner och testa!
+Anslut din micro:bit med usb-sladden. Klicka på "Ladda ned" och spara filen på micro:bit-enheten. Följ eventuella instruktioner om att kalibrera din kompass. 
+
+`||basic:Skulle kompassen fungera på ISS?||`
