@@ -6,7 +6,7 @@
   <img src="https://github.com/ElinTeknikensHus/esero_test/blob/master/TH-logo-liggande-svart%403x.png?raw=true" alt="DampVibrations" width="300"/>
 </div>
 
-# Räkna grader-variablen
+## Räkna grader-variablen
 Skapa en variabel, som du kallar `||variables:grader||`. Sätt variabelns värde till `||input:kompassriktning||` och dra in i `||basic:för alltid||` -loopen
 
 ```block
