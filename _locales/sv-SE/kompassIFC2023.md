@@ -43,10 +43,46 @@ basic.forever(function () {
 })
 ```
 
+## Testa! 
+Prova din kompass (Norr eller Ost) genom att dra i micro:bit-loggan i simulatorn.
 
+## Fortsätt med väderstrecket söder 
+`||logic:Om||` `||variables:grader||` är `||logic:mindre än||` 225, så pekar kompassen mest mot söder. `||basic:Visa||` S på micro:biten.
 
-## steg 1
-Detta ska vara på svenska
+```block
+let grader = 0
+basic.forever(function () {
+    grader = input.compassHeading()
+    if (grader < 45) {
+        basic.showString("N")
+    } else if (grader < 135) {
+        basic.showString("O")
+    } else if (grader < 225) {
+        basic.showString("S")
+    }
+})
+```
+## ...och så väster 
+`||logic:Om||` `||variables:grader||` är `||logic:mindre än||` 315, så pekar kompassen mest mot väster. `||basic:Visa||` V på micro:biten.
+
+```block
+let grader = 0
+basic.forever(function () {
+    grader = input.compassHeading()
+    if (grader < 45) {
+        basic.showString("N")
+    } else if (grader < 135) {
+        basic.showString("O")
+    } else if (grader < 225) {
+        basic.showString("Hello!")
+    } else if (grader < 315) {
+        basic.showString("V")
+    }
+})
+```
+## Avsluta koden 
+`||logic:Om||` inget av villkoren är uppfyllt måste micro:biten peka mot norr (fast till vänster om rakt mot norr).  på micro:biten.
+
 ```block
 let grader = 0
 basic.forever(function () {
