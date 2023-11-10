@@ -16,6 +16,18 @@ basic.forever(function () {
 })
 ```
 
+## Kompassen kräver logik!
+`||logic:Om||` `||variables:grader||` är `||logic:mindre än||` 45, så pekar kompassen mest mot norr (av de fyra väderstrecken). `||basic:Visa||` N på micro:biten.
+
+let grader = 0
+basic.forever(function () {
+    grader = input.compassHeading()
+    if (grader < 45) {
+        basic.showString("N")
+    }
+})
+```
+
 ## steg 1
 Detta ska vara på svenska
 ```block
