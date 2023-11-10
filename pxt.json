@@ -1,6 +1,6 @@
 {
     "name": "Kompass_IFC2023",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "description": "",
     "dependencies": {
         "core": "*",
